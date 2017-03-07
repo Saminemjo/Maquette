@@ -1,0 +1,258 @@
+    @charset "UTF-8";
+    body {
+        font-family: "Arial", Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+        width: 1400px;
+        color: white;
+        background-color: black;
+        font-size: small;
+    }
+
+    .titre, .sous_titre, .freestyle, .grosliens, .update, .lastupdate, .menu {
+        font-family: "Arial Black", Arial, Helvetica, sans-serif;
+    }
+
+    body a {
+        color: yellow;
+    }
+
+    body a:hover {
+        text-decoration: none;
+    }
+
+    .bullet {
+        list-style-image: url(../img/bullet.gif);
+    }
+
+    .coltext a:hover, .list1 a:hover, .list2 a:hover {
+        color: #ED145A;
+    }
+
+    .right a:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+    .fond {
+        background-image: url(../img/bg.jpg);
+        background-position: center top;
+        background-size: 100%;
+    }
+
+    .principal {
+        margin: 0 auto;
+        width: 800px;
+        height: 1000px;
+        background-image: url(../img/full.jpg);
+        background-repeat: repeat-y;
+        ;
+    }
+
+    .coltext {
+        margin-left: 20px;
+        padding-right: 20px;
+        float: left;
+        width: 380px;
+    }
+
+    .titre {
+        border-top: 4px solid yellow;
+        margin-top: 25px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    #text2 img {
+        border: 2px solid yellow;
+        padding: 2px;
+        float: left;
+        margin-right: 5px;
+    }
+
+    #text3 img {
+        border: 2px solid yellow;
+        padding: 2px;
+        float: right;
+        margin-left: 5px;
+    }
+
+    .sous_titre {
+        background-color: yellow;
+        color: black;
+        font-size: xxx-small;
+        font-weight: bold;
+        padding-left: 5px;
+    }
+
+    .middle {
+        background-image: url(../img/middle.jpg);
+        width: 30px;
+        height: 768px;
+        float: left;
+    }
+
+    .right {
+        width: 290px;
+        float: left;
+        text-align: center;
+    }
+
+    .right a {
+        color: yellow;
+    }
+
+    .freestyle {
+        background-image: url(../img/title.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 380px;
+        font-size: 62px;
+        margin: 0 0 12px 0;
+        font-weight: 900;
+        padding: 80px 30px 0 0;
+        line-height: 45px;
+        letter-spacing: -6px;
+    }
+
+    .grosliens li {
+        list-style-image: url(../img/star1.jpg);
+        list-style-position: inherit;
+        text-align: left;
+    }
+
+    .grosliens li:hover {
+        list-style-image: url(../img/star2.jpg);
+    }
+
+    .grosliens a {
+        font-size: bolder 900;
+        font-size: 22px;
+        font-weight: 900;
+        color: white;
+    }
+
+    .grosliens a:hover {
+        color: yellow;
+    }
+
+    .liens a {
+        text-decoration: none;
+    }
+
+    .liens {
+        border-left: 5px solid yellow;
+        padding-left: 5px;
+    }
+
+    .quoted {
+        border-top: 2px solid yellow;
+        border-bottom: 2px solid yellow;
+        background-color: #222;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .mylinks {
+        margin-left: 40px;
+        width: 135px;
+        float: left;
+    }
+
+    .webdesign {
+        width: 135px;
+        float: right;
+    }
+
+    .list1 {
+        float: left;
+    }
+
+    .list2 {
+        float: right;
+    }
+
+    .list1 li, .list2 li {
+        width: 135px;
+        border-top: 0.5px ridge grey;
+        list-style: none;
+        border-bottom: 0.5px ridge grey;
+        background-color: #222;
+        padding: 7px;
+    }
+
+    .list1 a, .list2 a {
+        color: grey;
+        text-decoration: none;
+    }
+
+    .update {
+        border-top: 4px solid yellow;
+        margin-top: 22px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 22px;
+        font-weight: bolder;
+        width: 250px;
+    }
+
+    .lastupdate {
+        background-color: yellow;
+        color: #ED145A;
+        font-size: xxx-small;
+        font-weight: bolder;
+        width: 250px;
+        height: 25px;
+        line-height: 25px;
+    }
+
+    .cadrejaune {
+        border: 4px solid yellow;
+        width: 250px;
+    }
+
+    .menu {
+        border: 4px solid yellow;
+        width: 250px;
+        padding: 0;
+    }
+
+    .menu li {
+        list-style: none;
+        text-align: left;
+        width: 245px;
+        padding: 5px;
+    }
+
+    .menu li div {
+        display: none;
+    }
+
+    .menu li:hover {
+        color: Black;
+        background-color: yellow;
+    }
+
+    .menu li:hover div {
+        display: block;
+        background-color: yellow;
+        color: Black;
+        font-family: "Arial", Arial, Helvetica, sans-serif;
+    }
+
+    .footer1 {
+        float: left;
+        width: 370px;
+        height: 300px;
+    }
+
+    .footer2 {
+			background-image: url(../img/footer.gif);
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin-top: 50px;
+float: left;
+        height: 288px;
+        width: 384px;
+    }
